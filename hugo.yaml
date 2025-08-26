@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://jpcloud.tech/"
+title: JP Cloud Tech
 pagination.pagerSize: 5
 
 module:
@@ -20,9 +20,9 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  title: JP Cloud Tech
+  description: "a personal blog by a Cloud Engineer with a passion for learning"
+  keywords: [Blog, Portfolio, PaperMod, Azure, Cloud, DevOps, Tech, IT, Programming, Coding, Scripting, PowerShell, Python, CSharp, .NET]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -31,7 +31,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -78,15 +78,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: Welcome to JP Cloud Tech
 
-  socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+  #socialIcons:
+  #  - name: x
+  #    url: "https://x.com/"
+  #  - name: stackoverflow
+  #    url: "https://stackoverflow.com"
+  #  - name: github
+  #    url: "https://github.com/"
 
   analytics:
     google:
@@ -102,7 +102,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "mailto://jp@jpcloud.tech?subject=Suggesting changes for "
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -119,18 +119,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: Search
+      name: Search
+      url: /search/
       weight: 10
-    - identifier: tags
-      name: tags
+    - identifier: Tags
+      name: Tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+    #- identifier: example
+    #  name: example.org
+    #  url: https://example.org
+    #  weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
