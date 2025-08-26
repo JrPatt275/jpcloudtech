@@ -6,13 +6,13 @@ date: 2020-09-15T11:30:03+00:00
 tags: ["first"]
 author: "James Patterson"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 description: "Desc Text."
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://jpcloud.tech/posts/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
@@ -31,7 +31,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "mailto://jp@jpcloud.tech?subject=Suggesting changes for "
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
